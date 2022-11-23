@@ -20,18 +20,18 @@ public class Main {
         System.out.println("Podaj swoje wiek");
         int age = skaner.nextInt();
 
-        System.out.println("Czy jesteś mezczyzna? (true/false) ");
-        boolean sex = skaner.nextBoolean();
-        String sex_Wyb;
-        if (sex == true) {
-            sex_Wyb = "mezczyzna";
+        System.out.println("Czy jesteś w zwiazku? (true/false) ");
+        boolean relationship = skaner.nextBoolean();
+        String rel;
+        if (relationship == true) {
+            rel = "Tak";
         } else {
-            sex_Wyb = "kobieta";
+            rel = "Nie";
         }
 
 
         System.out.println("Witaj w klubie testera! \n" + name + " " + las_Name + "\n" + "Wiek: " + age + "\n"+
-                 "Miasto: " +  city + " \n" + "Plec: " + sex_Wyb);
+                 "Miasto: " +  city + " \n" + "Czy w związku: " + rel);
 
     }
 }
